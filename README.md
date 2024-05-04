@@ -1,2 +1,2 @@
-contains random coding files or projects that i created in vscode
+contains random codes, files and learning materials
 also serves as my backups
