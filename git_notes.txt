@@ -1,0 +1,22 @@
+git commands
+clone
+add
+commit
+push
+pull
+status
+init
+
+git remote add origin <github link>
+
+branching
+git branch - list all branch
+git checkout -b <name> - switch and create a new branch
+git checkout <branch name> - switch branch
+
+git diff <branch name>
+git merge
+
+undo
+git reset -> undo stages
+git reset HEAD ->
