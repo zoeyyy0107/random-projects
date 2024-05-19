@@ -1,0 +1,11 @@
+Python Playwright Masterclass 
+Lethcode channel
+https://www.youtube.com/watch?v=B8nIt0TCJik
+
+playwright - browser automation package
+
+pip install pytest-playwright
+
+playwright install
+
+pip install pytest-reporter-html1
