@@ -1,0 +1,81 @@
+Data Analysis with Python Course - Numpy, Pandas, Data Visualization
+https://www.youtube.com/watch?v=GPVsHOlRBBI
+
+numpy ***
+zip() function
+np.dot
+help(np.dot) - documentation
+np.sum()
+np.shape
+np.dtype
+np.matmul
+matrix multiplication @ sign
+np.concatenate
+np.reshape
+np.savetxt
+
+pandas ***
+df.info() - info about dataframe
+df.describe() - Generate descriptive statistics
+	such as count, mean, std, min, max, 25%, 50%, 75%, max
+df.columns() - list of column names
+df.shape() - number of rows and columns
+dt.at[]
+df.copy()
+df.loc[]
+df.head(5) - first 5 rows
+df.tail(5) - last 5 rows
+nan - not a number, missing values
+df.first_valid_index()
+df.last_valid_index()
+df.sample() - Return a random sample of items from an axis of object
+df.sum() - sum of series
+
+filtering
+df[df[colname]==0]
+
+df.sort_values()
+to_datetime
+datetimeindex - extract year, month, day, weekday
+df.merge
+
+basic plotting
+matplotlib or seaborn
+df.plot
+
+matplotlib and seaborn***
+import matplotlib.pyplot as plt
+plt.plot
+xlabel, ylabel
+plt.title
+plt.legend
+plt.figure(figsize=(12,6))
+
+sns.set_style("whitegrid")
+matplotlib.rcparams - default styles
+sns.scatterplot
+
+plt.hist
+np.arrange
+plt.hist(df,bins = [])histogram bins
+stacked = true - stacked histogram 
+
+bar charts
+plt.bar
+plt.bar(x,y,bottom=data) - for stacked bar chart
+sns.barplot - auto compute averages
+
+heatmap
+sns.heatmap
+
+plt.imshow
+
+plt.subplots(2,3)
+plt.tight_layout(pad=2)
+
+errors coerce
+
+df.nunique
+df.values_count
+
+
